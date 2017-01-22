@@ -52,11 +52,11 @@ export default class NavLogin extends React.Component {
           <form className='userLoginForm' ref='userLoginForm'>
             <div>
               <lable for='name'>Name</lable>
-              <input id='name' ref='name' />
+              <input id='name' ref='name' required />
             </div>
             <div>
               <lable for='email'>Email</lable>
-              <input id='email' ref='email' />
+              <input id='email' ref='email' required />
             </div>
             <button onClick={ this.handleUserLogin.bind(this) }>Login</button>
           </form>
