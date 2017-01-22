@@ -28,7 +28,7 @@ module.exports = {
       },
       { test: /\.scss?$/,
         loader: 'style!css!sass',
-        include: path.join(__dirname, 'src', 'styles') },
+        include: path.join(__dirname, 'src') },
       { test: /\.png$/,
         loader: 'file' },
       { test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
