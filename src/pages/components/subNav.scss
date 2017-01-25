@@ -1,0 +1,18 @@
+nav {
+
+  ul {
+    list-style-image: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: #fff;
+    
+    li {
+      width: 20%;
+      display: block;
+      text-align: center
+    }
+  }
+}

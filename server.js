@@ -10,6 +10,11 @@ module.exports = {
     app.use('/public', publicPath)
     app.get('/', function (_, res) { res.sendFile(indexPath) })
 
+    // All routes should resolve with `index.html`
+    app.get('*', function (request, response){
+        response.sendFile(path.resolve(__dirname, 'public', 'index.html'))
+    })
+
     return app
   }
 }
