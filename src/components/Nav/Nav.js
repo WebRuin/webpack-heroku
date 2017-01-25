@@ -16,6 +16,12 @@ export default class Nav extends React.Component {
         <section className='logo'>
           <Link to='/'><h1>Logo</h1></Link>
         </section>
+        <section className='link-group'>
+          <Link to='/'>Home</Link>
+          <Link to='/code'>Code</Link>
+          <Link to='/network'>Network</Link>
+          <Link to='/security'>Security</Link>
+        </section>
         <section className='button-group'>
           { loggedIn }
         </section>

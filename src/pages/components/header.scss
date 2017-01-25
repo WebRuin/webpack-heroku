@@ -1,0 +1,45 @@
+header {
+
+  h1 {
+    display: block;
+    font-size: 3rem;
+    padding: 1rem;
+    color: #000;
+    background-color: rgba(255,255,255,0.5);
+  }
+
+  &.code,
+  &.index,
+  &.network,
+  &.security {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &.code {
+    background: url('../images/binary-715768_1920.jpg');
+    background-size: cover;
+    background-position: 0px;
+  }
+
+  &.index {
+    background: url('../images/software-657188_1920.jpg');
+    background-size: cover;
+    background-position: 0px;
+  }
+
+  &.network {
+    background: url('../images/monitor-862116_1920.jpg');
+    background-size: cover;
+    background-position: 0px;
+  }
+
+  &.security {
+    background: url('../images/binary-823336_1280.jpg');
+    background-size: cover;
+    background-position: 0px;
+  }
+}

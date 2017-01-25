@@ -7,11 +7,33 @@ nav {
     a {
       color: #000;
       text-decoration: none;
+
+      h1 {
+        font-size: 1.5rem;
+        padding: 1.15rem;
+        color: #fff;
+      }
+    }
+  }
+
+  .link-group {
+    margin-left: auto;
+    border-right: 1px solid rgba(0,0,0,0.75);
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      border: none;
+      outline: none;
+      padding: 1.35rem;
+      font-size: 1.1rem;
+      border-left: 1px solid rgba(0,0,0,0.75);
+      background-color: rgba(105,132,160,0.75);
     }
   }
 
   .button-group {
-    margin-left: auto;
 
     button {
       color: #fff;
