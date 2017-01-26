@@ -49,7 +49,7 @@ export default class NavLogin extends React.Component {
       <div>
         <button className='loginButton' onClick={ this.props.toogleLoginMenu }>Login</button>
         <div className={ menuClass }>
-          <form className='userLoginForm' ref='userLoginForm'>
+          <form className='userLoginForm' ref='userLoginForm' onSubmit={ this.handleUserLogin.bind(this) }>
             <div>
               <lable for='name'>Name</lable>
               <input id='name' ref='name' required />
@@ -58,7 +58,7 @@ export default class NavLogin extends React.Component {
               <lable for='email'>Email</lable>
               <input id='email' ref='email' required />
             </div>
-            <button onClick={ this.handleUserLogin.bind(this) }>Login</button>
+            <input className='button' type='submit' value='Login' />
           </form>
         </div>
       </div>
